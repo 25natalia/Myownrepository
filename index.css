@@ -1,0 +1,23 @@
+body {
+	margin: 0;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+}
+
+.container {
+	text-align: center;
+}
+
+h1 {
+	font-size: 3em;
+	transition: color 0.2s;
+	color: aliceblue;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1:hover {
+	color: rgb(127, 138, 255);
+}
